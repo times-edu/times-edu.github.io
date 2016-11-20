@@ -1,0 +1,164 @@
+/* -------------------------------- */
+/* ----- Global Vars/Mixins ------- */
+/* -------------------------------- */
+/* --------------------------------- */
+/* -------- Compass Mixins --------- */
+/* --------------------------------- */
+/* -------------------------------- */
+/* --------- Custom Theme --------- */
+/* -------------------------------- */
+/* --------------------------------- */
+/* --- Bootstrap Vars and Mixins --- */
+/* --------------------------------- */
+/* --------------------------------- */
+/* --- nth Child selector mixins --- */
+/* --------------------------------- */
+/* --------------------------------- */
+/* ------- Custom Mixins ----------- */
+/* --------------------------------- */
+/* --------------------------------------------------------------- */
+/* --------------- Sitewide Custom Variables --------------------- */
+/* --------------------------------------------------------------- */
+/* --------------------------------------------------------------- */
+/* --------------- Extend Placeholder Selectors ------------------ */
+/* --------------------------------------------------------------- */
+/* --------------------------------------------------------------- */
+/* ------------------ Custom Utility Mixins ---------------------- */
+/* --------------------------------------------------------------- */
+/* --------------------------------------------------------------- */
+/* ----------------- Sitewide Custom Mixins ---------------------- */
+/* --------------------------------------------------------------- */
+/* --- Determine width of dynamic flex grid items by passing a number of columns  --- */
+/* --------------------------------------------------------------- */
+/* ---------------- Sitewide Custom Functions -------------------- */
+/* --------------------------------------------------------------- */
+/* ---- Returns values from a SASS Map to help generate a concoction --- */
+/* -- of position values to assist in the layout of Instagram banners -- */
+/* --------------------------------------------------------------- */
+/* ---------------- Sitewide Custom Keyframes -------------------- */
+/* --------------------------------------------------------------- */
+@-moz-keyframes fade-in { 0% { opacity: 0; }
+  100% { opacity: 1; } }
+@-webkit-keyframes fade-in { 0% { opacity: 0; }
+  100% { opacity: 1; } }
+@keyframes fade-in { 0% { opacity: 0; }
+  100% { opacity: 1; } }
+@-moz-keyframes fade-out { 0% { opacity: 1; }
+  100% { opacity: 0; } }
+@-webkit-keyframes fade-out { 0% { opacity: 1; }
+  100% { opacity: 0; } }
+@keyframes fade-out { 0% { opacity: 1; }
+  100% { opacity: 0; } }
+/* -------------------------------- */
+/* ----- Custom Page Styles ------- */
+/* -------------------------------- */
+h1 { font-family: "NYC Sans Bold Alt", "NYC Sans Bold", "NYC Sans", "Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 105px; line-height: 0.8; margin: 50px auto; width: 250px; }
+
+.navbar-inverse { opacity: 1; top: 35px; min-height: 35px; text-transform: uppercase; -webkit-transition: opacity 0.3s ease-in-out; -o-transition: opacity 0.3s ease-in-out; transition: opacity 0.3s ease-in-out; }
+.navbar-inverse .navbar-nav { width: 100%; text-align: center; }
+.navbar-inverse .navbar-nav li { float: none; display: inline-block; padding: 0 2%; }
+.navbar-inverse .navbar-nav li a { padding: 8px 0; }
+.navbar-inverse .navbar-nav li a:hover { color: #fec830; }
+
+.video-wrapper { display: none; opacity: 0; }
+.video-wrapper video { min-height: 100%; }
+
+.show-second { opacity: 0; margin-top: 10em; }
+.show-second .well-msg { width: 90%; margin: 10px auto; }
+
+.btn.scroll-nav { padding: 10px 30px; border-color: #FFF; color: #FFF; text-transform: uppercase; margin: 10px; border-width: 3px; }
+.btn.scroll-nav:hover { color: #1f1f21; }
+.btn.scroll-nav:hover::before { background: #FFF; }
+
+.landing-bg { z-index: 0; }
+
+.navbar-default.affix-top { background: transparent; }
+
+.card-deck .card-container { position: relative; top: 300px; opacity: 0; }
+
+
+.adspace.wide-ad { width: 97%; margin: -40px auto; text-align: center; z-index: 10; position: absolute; }
+.adspace.wide-ad iframe { border: 10px solid white !important; width: 990px; height: 110px; }
+
+.borough-link { color: #fff; }
+.borough-link.active { color: #fec830; }
+
+.home-block { position: relative; color: #fff; background-position: center; background-size: cover; margin-top: 10px; }
+
+.header-block { padding-top: 50px; text-align: center; margin-top: 0; overflow: hidden; }
+.header-block::before { display: none; }
+
+.explore-block { padding-top: 50px; }
+.explore-block.gradient-overlay::before { z-index: 1; }
+.explore-block .svg-borough-map-wrapper { position: absolute; right: 0; width: 60%; }
+.explore-block li { margin: 45px 0 15px 25px; }
+
+.bucket-block { height: 420px; background-color: rebeccapurple; display: block; }
+.bucket-block .well { background-color: transparent; color: transparent; font-size: small; line-height: 1.3; text-align: center; padding: 10px; margin: 10px auto 0; -webkit-transition: all 0.8s ease-in-out; -o-transition: all 0.8s ease-in-out; transition: all 0.8s ease-in-out; }
+.bucket-block h2 { color: #FFF; margin-top: 5px; -webkit-transition: color 0.8s ease-in-out; -o-transition: color 0.8s ease-in-out; transition: color 0.8s ease-in-out; }
+.bucket-block:hover .icon { color: #FFF; }
+.bucket-block:hover .btn::before { -moz-transform: rotate3d(0, 0, 1, 0deg); -ms-transform: rotate3d(0, 0, 1, 0deg); -webkit-transform: rotate3d(0, 0, 1, 0deg); transform: rotate3d(0, 0, 1, 0deg); -webkit-transition-timing-function: cubic-bezier(0.2, 1, 0.3, 1); transition-timing-function: cubic-bezier(0.2, 1, 0.3, 1); background: #fec830; opacity: 1; }
+
+.block-header { text-align: center; margin-top: 70px; }
+.block-header .btn-default { display: block; width: 100px; margin: 0 auto; }
+
+.gray-boxes .icon { font-size: 3em; padding-top: 10%; }
+.gray-boxes .well { display: block; height: 160px; }
+.gray-boxes .well:hover { background-color: #fec830; }
+.gray-boxes h3 { font-size: 15px; }
+
+.strategic-partners h5 { text-transform: uppercase; padding-bottom: 5px; border-bottom: 1px solid #83858c; }
+.strategic-partners a, .strategic-partners a:hover { border: 0 !important; background: none; }
+
+.partner-logo { margin: 10px 0; max-width: 100%; }
+
+.trigger { margin-top: -200px; margin-bottom: 70px; }
+.trigger + .bucket-block { margin-top: 210px; margin-bottom: 10px; }
+
+.anim-op.icon, .anim-op.copy, .anim-op.btn { opacity: 0; }
+
+.zap.well { background-color: #f5f5f5; color: #1f1f21; }
+.zap.well h2 { color: #1f1f21; }
+
+.explore-bg { position: absolute; top: 0; left: 0; z-index: 0; width: 100%; height: 100%; background: transparent; background-size: cover; pointer-events: none; }
+.explore-bg .inner-bg { height: 100%; width: 100%; background-size: cover; opacity: 0; }
+
+.down-anchor { position: absolute; bottom: 50px; right: 49%; display: block; color: #FFF; }
+.down-anchor:hover { color: #fec830; }
+
+@media screen and (min-width: 992px) { .bucket-block .well { width: 45%; } }
+@media screen and (min-width: 768px) { .home-block:not(.bucket-block) { height: 720px; }
+  .navbar-inverse { top: 0; }
+  .show-second .well-msg { width: 400px; }
+  .bucket-block .well { margin-top: 10px; margin-bottom: 20px; }
+  .gray-boxes .icon { font-size: 5em; }
+  .gray-boxes .well { height: 280px; }
+  .gray-boxes h3 { font-size: 45px; }
+  .explore-block .svg-borough-map-wrapper { z-index: 3; }
+  .explore-block .svg-borough-map-wrapper svg { height: auto; }
+  .explore-block .svg-borough-map-wrapper text { display: none; } }
+@media screen and (min-width: 768px) and (max-width: 991px) { .explore-block .h1 { font-size: 45px; }
+  .explore-block .h2 { font-size: 30px; }
+  .explore-block .svg-borough-map-wrapper { width: 80%; } }
+@media screen and (max-width: 767px) { .explore-block { color: #1f1f21; background-image: none !important; padding-top: 10px; }
+  .explore-block .h1 { margin-top: 0; font-size: 40px; }
+  .explore-block::before { display: none; }
+  .explore-block .svg-borough-map-wrapper { position: relative; width: 100%; }
+  .explore-block .svg-borough-map-wrapper svg { height: auto; }
+  .explore-block .svg-borough-map-wrapper text:not(#text_borough_manhattan) { fill: white; }
+  .explore-block .borough_svg_path { fill: #696970; stroke: transparent; }
+  .explore-block .borough_svg_path:hover, .explore-block .borough_svg_path:focus { fill: #1f1f21; }
+  .explore-bg { display: none; }
+  .bucket-block h2 { font-size: 28px; }
+  .bucket-block .well { padding: 10px; }
+  .borough-map-home { width: 315px; margin: 10px auto 0; }
+  .gray-boxes { margin-top: 30px; } }
+@media screen and (min-width: 1200px) { .btn.scroll-nav { width: 46%; }
+  .navbar-inverse { /*top: 35px;*/ }
+  .nycgo-header-large { margin: auto; margin-top: 50px; width: 500px; font-size: 205px; }
+  .explore-block { overflow: hidden; }
+  .explore-block .h1 { line-height: 1; }
+  .explore-block .svg-borough-map-wrapper { width: 800px; top: -30px; }
+  .bucket-block + .card-deck { padding-bottom: 40px; } }
+
+/*# sourceMappingURL=homepage.css.map */
