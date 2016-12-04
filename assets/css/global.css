@@ -3826,7 +3826,6 @@ nav .twitter-typeahead .tt-menu .tt-suggestion:hover, nav .twitter-typeahead .tt
 
 /* header site title */
 .fn-header__name {
-  color: #ECF0F1;
   margin-right: auto;
   font-size: 1.5625rem; }
   @media screen and (max-width: 14.813em) {
@@ -3845,11 +3844,10 @@ nav .twitter-typeahead .tt-menu .tt-suggestion:hover, nav .twitter-typeahead .tt
 .fn-header__button {
   background: none;
   border: 0.125rem solid;
-  color: #ECF0F1;
   font-size: 4.5vw; }
   .fn-header__button:hover,
   .fn-header__button:focus {
-    border: 0.125rem solid #ECF0F1; }
+    border: 0.125rem solid ; }
   @media screen and (max-width: 9.375em) {
     .fn-header__button {
       margin: auto; } }
