@@ -1,8 +1,3 @@
-/**
- * Created by Cory on 3/11/2015.
- * updated: 08/28/2015
- *
- */
 (function () {
     'use strict';
 
