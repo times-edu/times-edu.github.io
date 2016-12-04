@@ -22,23 +22,23 @@
   <!-- Content area -->
 
   <div class="navbar navbar-inverse navbar-fixed-top visible-lg-block">
-    <div class="container-fluid fn-nav-container" role="navigation">
-        <ul class="nav navbar-nav fn-navigation" id="js-nav">
-            <li class="fn-navigation__item"><a class="scroll-nav" href="https://times-edu.github.io/igcse-o-level">IGCSE O'LEVEL</a></li>
+    <div class="container-fluid">
+        <ul class="nav navbar-nav">
+            <li><a class="scroll-nav" href="https://times-edu.github.io/igcse-o-level">IGCSE O'LEVEL</a></li>
             
-            <li class="fn-navigation__item"><a class="scroll-nav" href="https://times-edu.github.io/ial-a-level">IAL A'LEVEL</a></li>
+            <li><a class="scroll-nav" href="https://times-edu.github.io/ial-a-level">IAL A'LEVEL</a></li>
             
-            <li class="fn-navigation__item"><a class="scroll-nav" href="https://times-edu.github.io/mark-schemes/igcse-o-level">Mark Schemes</a></li>
+            <li><a class="scroll-nav" href="https://times-edu.github.io/mark-schemes/igcse-o-level">Mark Schemes</a></li>
             
-            <li class="fn-navigation__item"><a class="scroll-nav" href="https://times-edu.github.io/question-papers/igcse-o-level">Question Papers</a></li>
+            <li><a class="scroll-nav" href="https://times-edu.github.io/question-papers/igcse-o-level">Question Papers</a></li>
             
-            <li class="fn-navigation__item"><a class="scroll-nav" href="https://times-edu.github.io/admissions">Admission</a></li>
+            <li><a class="scroll-nav" href="https://times-edu.github.io/admissions">Admission</a></li>
             
-            <li class="fn-navigation__item"><a class="scroll-nav" href="https://times-edu.github.io/photos">Photo</a></li>
+            <li><a class="scroll-nav" href="https://times-edu.github.io/photos">Photo</a></li>
             
-            <li class="fn-navigation__item"><a class="scroll-nav" href="https://times-edu.github.io/about-us">About Us</a></li>
+            <li><a class="scroll-nav" href="https://times-edu.github.io/about-us">About Us</a></li>
             
-            <li class="fn-navigation__item"><a class="scroll-nav" href="https://times-edu.github.io/peer-review">Peer Reviews</a></li>
+            <li><a class="scroll-nav" href="https://times-edu.github.io/peer-review">Peer Reviews</a></li>
             
         </ul>
     </div>
@@ -76,24 +76,31 @@
 
 		<div class="col-xs-12 col-sm-6 col-lg-3 side-column">
 			<!-- flexbar -->
-<div class="list-group flexbar">
-	<a class='list-group-item active' href="https://times-edu.github.io/igcse-o-level"> IGCSE ACCOUTING </a>
-		<a class='sub-group-item ' href="grade-analysis">Grade Analysis</a>
-	<a class='list-group-item ' href="https://times-edu.github.io/ial-a-level">IAL A'Level</a>
-	<a class='list-group-item ' href="https://times-edu.github.io/mark-schemes/igcse-o-level">Mark Schemes</a>
-	<a class='list-group-item ' href="https://times-edu.github.io/question-papers/igcse-o-level">Question Papers</a>
-	<a class='list-group-item ' href="https://times-edu.github.io/admissions">Admissions</a>
-	<a class='list-group-item ' href="https://times-edu.github.io/photos">Photos</a>
-	<a class='list-group-item ' href="https://times-edu.github.io/about-us">About Us</a>
-	<a class='list-group-item ' href="https://times-edu.github.io/peer-review">Peer Review</a>
+<input type="checkbox" id="fn-noJs" class="fn-navTrigger__no-js"/>
+<label id="fn-noJs_label" for="fn-noJs"><span class="visually-hidden">Menu Button</span></label>
+<div class="list-group flexbar fn-nav-container" role="navigation">
+  <ul class="fn-navigation" id="js-nav">
+    <li class="fn-navigation__item">
+    	<a class='list-group-item active' href="https://times-edu.github.io/igcse-o-level"> IGCSE ACCOUTING </a>
+    		<a class='sub-group-item ' href="grade-analysis">Grade Analysis</a>
+    	<a class='list-group-item ' href="https://times-edu.github.io/ial-a-level">IAL A'Level</a>
+    	<a class='list-group-item ' href="https://times-edu.github.io/mark-schemes/igcse-o-level">Mark Schemes</a>
+    	<a class='list-group-item ' href="https://times-edu.github.io/question-papers/igcse-o-level">Question Papers</a>
+    	<a class='list-group-item ' href="https://times-edu.github.io/admissions">Admissions</a>
+    	<a class='list-group-item ' href="https://times-edu.github.io/photos">Photos</a>
+    	<a class='list-group-item ' href="https://times-edu.github.io/about-us">About Us</a>
+    	<a class='list-group-item ' href="https://times-edu.github.io/peer-review">Peer Review</a>
+    </li>
+  </ul>
+  <div class="col-xs-6 col-sm-12">
+    <a data-toggle="collapse" href="#socialShare" aria-expanded="false" aria-controls="socialShare" class="btn btn-default btn-block  btn-lg"><span class="btn"><i class="fa fa-share-alt fa-2x"></i></span> Share This</a>
+  </div>
 </div>
 <!-- flexbar -->
 
 <div class="button-bar row">
 	
-	<div class="col-xs-6 col-sm-12">
-		<a data-toggle="collapse" href="#socialShare" aria-expanded="false" aria-controls="socialShare" class="btn btn-default btn-block  btn-lg"><span class="btn"><i class="fa fa-share-alt fa-2x"></i></span> Share This</a>
-	</div>
+	
 	
 	<div class="collapse social-wrapper social-blocks col-xs-6 col-sm-12" id="socialShare">
 		<button class="sharer fb-social" data-sharer="facebook" data-url=""><i class="fa fa-facebook " title="Facebook"></i></button>
