@@ -15,7 +15,7 @@
     	<script type="text/javascript">var _sf_startpt=(new Date()).getTime()</script>
     
 	</head>
-<body>
+<body id="js-main" role="main">
 
   
 
@@ -76,10 +76,20 @@
 
 		<div class="col-xs-12 col-sm-6 col-lg-3 side-column">
 			<!-- flexbar -->
+
+<div class="fn-header__title-container">
+    <h1 class="fn-header__name">Flexbox Nav</h1>
+    <button id="fn-header__button"
+            class="fn-header__button"
+            aria-label="Menu"
+            aria-expanded="false"
+            aria-controls="js-nav">Menu &#x2261;
+    </button>
+</div>
 <input type="checkbox" id="fn-noJs" class="fn-navTrigger__no-js"/>
 <label id="fn-noJs_label" for="fn-noJs"><span class="visually-hidden">Menu Button</span></label>
 <div class="list-group flexbar fn-nav-container" role="navigation">
-  <ul class="fn-navigation" id="js-nav">
+  <ul class="fn-navigation" id="js-nav" style="padding-left: 0px">
     <li class="fn-navigation__item">
     	<a class='list-group-item active' href="https://times-edu.github.io/igcse-o-level"> IGCSE ACCOUTING </a>
     		<a class='sub-group-item ' href="grade-analysis">Grade Analysis</a>
